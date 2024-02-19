@@ -6,7 +6,24 @@ const jimp = require('jimp');
 const path = require('path');
 const readline = require('readline');
 
-
+function previewFile(input) {
+	const preview = document.getElementById('image-preview');
+	const file = input.files[0];
+	const reader = new FileReader();
+  
+	reader.onloadend = () => {
+	  const img = document.createElement('img');
+	  img.src = reader.result;
+	  preview.innerHTML = '';
+	  preview.appendChild(img);
+	};
+  
+	if (file) {
+	  reader.readAsDataURL(file);
+	} else {
+	  preview.innerHTML = '';
+	}
+  }
 
 // helper functions
 function askQuestion(query) {
