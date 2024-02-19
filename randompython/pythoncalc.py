@@ -2,6 +2,7 @@ from tkinter import Tk, StringVar
 from customtkinter import CTkFrame, CTkLabel, CTkEntry, CTkButton, CTkCheckBox
 from PIL import Image, ImageTk
 
+
 # Initialize GUI
 root = Tk()
 root.title("Modern Login")

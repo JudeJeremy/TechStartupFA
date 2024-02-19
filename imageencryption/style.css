@@ -1,0 +1,12 @@
+p {
+    color: red;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+input[type="radio"] {
+    position: relative;
+}
