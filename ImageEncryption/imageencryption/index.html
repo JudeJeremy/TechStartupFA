@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Encryption</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Image Encryption</h1>
+        <p>Here you can encrypt and decrypt your images.</p>
+        <a href="https://www.fiverr.com/tony_jer?public_mode=true">Fiverr</a>
+
+        <form id="image-form" onsubmit="handleFormSubmit(event)">
+            <div class="radio-container">
+                <input type="radio" name="image-source" id="source-1" value="encrypt">
+                <label for="source-1">Encrypt</label>
+                <input type="radio" name="image-source" id="source-2" value="decrypt">
+                <label for="source-2">Decrypt</label>
+            </div>
+
+            <div class="SelectImageBtn-container">
+                <label for="myfile">Select an image:</label>
+                <input type="file" id="myfile" name="myfile" onchange="previewFile(this)">
+                <div id="image-preview"></div>
+            </div>
+
+            <div class="KeyField-container">
+                <label for="encryption-key">Enter encryption key:</label>
+                <input type="password" id="encryption-key" name="encryption-key">
+            </div>
+
+            <div class="SubmitBtn-container">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <img id="placeholder-image" src="placeholder.png" style="display: none;">
+
+
+        <script src="encrypt.js"></script>
+
+        
+    </body>
+</html>
