@@ -6,6 +6,34 @@ const jimp = require('jimp');
 const path = require('path');
 const readline = require('readline');
 
+const encrypt = require('./encrypt'); // Assuming 'encrypt.js' is in the same directory
+
+// Example usage
+const inputImagePath = 'path/to/input/image.jpg'; // Provide the path to your input image file
+const flags = {
+  encrypt: inputImagePath,
+  // Add any other flags you want to use, such as outputImageFileName or outputKeyFileName
+};
+
+// Call the encrypt function with the provided flags
+encrypt(flags);
+
+
+function handleFormSubmit(event) {
+	event.preventDefault();
+  
+	// hide the form
+	const form = document.getElementById("image-form");
+	form.style.display = "none";
+  
+	// show the placeholder image
+	const placeholderImage = document.getElementById("placeholder-image");
+	placeholderImage.style.display = "block";
+  
+	// rest of your code
+  }
+
+
 function previewFile(input) {
 	const preview = document.getElementById('image-preview');
 	const file = input.files[0];
