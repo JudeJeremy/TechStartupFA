@@ -1,0 +1,175 @@
+.sign-up21-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.sign-up21-max-width {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: row;
+}
+.sign-up21-container1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.sign-up21-sign-up-image {
+  width: 395px;
+  height: 617px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.sign-up21-form-root {
+  gap: var(--dl-space-space-unit);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  justify-content: center;
+}
+.sign-up21-form {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sign-up21-title-root {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up21-have-an-account-login {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up21-form1 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up21-username {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sign-up21-textinput {
+  width: 100%;
+  border-color: #7350f7;
+  background-color: transparent;
+}
+.sign-up21-email {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sign-up21-textinput1 {
+  width: 100%;
+  border-color: #7350f7;
+  background-color: transparent;
+}
+.sign-up21-password {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sign-up21-textfield {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sign-up21-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sign-up21-hide-password {
+  gap: var(--dl-space-space-halfunit);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.sign-up21-icon {
+  fill: var(--dl-color-theme-neutral-dark);
+  width: 24px;
+  height: 24px;
+}
+.sign-up21-textinput2 {
+  width: 100%;
+  border-color: #7350f7;
+  background-color: transparent;
+}
+.sign-up21-text07 {
+  font-size: 14px;
+}
+.sign-up21-terms-agree {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+}
+.sign-up21-button {
+  border-color: #7350f7;
+  background-color: #7350f7;
+}
+.sign-up21-text11 {
+  text-align: center;
+}
+.sign-up21-have-an-account-login1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+}
+.sign-up21-root-class-name {
+  fill: var(--dl-color-gray-black);
+  color: var(--dl-color-gray-black);
+  background-color: rgba(217, 217, 217, 0);
+}
+@media(max-width: 991px) {
+  .sign-up21-container1 {
+    width: 100%;
+    height: var(--dl-size-size-xxlarge);
+  }
+  .sign-up21-form-root {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .sign-up21-button {
+    width: 100%;
+  }
+}
